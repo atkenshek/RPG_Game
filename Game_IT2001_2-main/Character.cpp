@@ -1,6 +1,8 @@
 #include "Character.h"
 #include "Item.h"
 
+//осы кодкой сол) разница жок вроде
+
 int weaponCounter=0;
 
 Character::Character() {
