@@ -176,30 +176,6 @@ Enemy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Enemy.cpp.s
 .PHONY : Enemy.cpp.s
 
-Fight.obj: Fight.cpp.obj
-.PHONY : Fight.obj
-
-# target to build an object file
-Fight.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Fight.cpp.obj
-.PHONY : Fight.cpp.obj
-
-Fight.i: Fight.cpp.i
-.PHONY : Fight.i
-
-# target to preprocess a source file
-Fight.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Fight.cpp.i
-.PHONY : Fight.cpp.i
-
-Fight.s: Fight.cpp.s
-.PHONY : Fight.s
-
-# target to generate assembly for a file
-Fight.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RPG_Game.dir\build.make CMakeFiles/RPG_Game.dir/Fight.cpp.s
-.PHONY : Fight.cpp.s
-
 Game.obj: Game.cpp.obj
 .PHONY : Game.obj
 
@@ -287,9 +263,6 @@ help:
 	@echo ... Enemy.obj
 	@echo ... Enemy.i
 	@echo ... Enemy.s
-	@echo ... Fight.obj
-	@echo ... Fight.i
-	@echo ... Fight.s
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s

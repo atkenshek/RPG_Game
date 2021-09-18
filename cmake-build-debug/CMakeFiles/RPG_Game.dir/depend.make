@@ -8,16 +8,8 @@ CMakeFiles/RPG_Game.dir/Character.cpp.obj: \
 CMakeFiles/RPG_Game.dir/Enemy.cpp.obj: \
  ../Enemy.cpp \
  ../Enemy.h
-CMakeFiles/RPG_Game.dir/Fight.cpp.obj: \
- ../Character.h \
- ../Enemy.h \
- ../Fight.cpp \
- ../Fight.h \
- ../Item.h
 CMakeFiles/RPG_Game.dir/Game.cpp.obj: \
  ../Character.h \
- ../Enemy.h \
- ../Fight.h \
  ../Game.cpp \
  ../Game.h \
  ../Item.h
@@ -26,8 +18,6 @@ CMakeFiles/RPG_Game.dir/Item.cpp.obj: \
  ../Item.h
 CMakeFiles/RPG_Game.dir/main.cpp.obj: \
  ../Character.h \
- ../Enemy.h \
- ../Fight.h \
  ../Game.h \
  ../Item.h \
  ../main.cpp

@@ -4,32 +4,56 @@
 
 #ifndef RPG_GAME_CHARACTER_H
 #define RPG_GAME_CHARACTER_H
+#include "iostream"
 #include <string>
-#include <iostream>
-using namespace std;
 #include "Item.h"
+#include <cstdlib>
+using namespace std;
 
 class Character {
 public:
+
     Character();
-    void initialize(string name);
-    string toStringCharacter();
-    void levelUp();
-    void gainExp(int exp);
+
+    virtual ~Character();
+
+    const string &getName() const;
+
+    void setName(const string &name);
+
+    int getMaxHp() const;
+
+    void setMaxHp(int maxHp);
+
+    int getHp() const;
+
+    void setHp(int hp);
+
+    int getAtk() const;
+
+    void setAtk(int atk);
+
+    int getLevel() const;
+
+    void setLevel(int level);
 
     int getExp() const;
 
     void setExp(int exp);
-    void receiveItem(Item item);
+    string getInfo();
+    void gainExp(int exp);
+    void setItem(Item item);
+//    Item getRandomItem();
+    void fight();
 
 private:
     string name;
-    int HP;
     int maxHP;
+    int HP;
     int atk;
-    int exp;
     int level;
-    Item arrItems[3];
+    int exp;
+    Item items[4];
 
 };
 #endif //RPG_GAME_CHARACTER_H

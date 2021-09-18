@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "F:/Clionprojectsnew/RPG_Game/Character.cpp" "F:/Clionprojectsnew/RPG_Game/cmake-build-debug/CMakeFiles/RPG_Game.dir/Character.cpp.obj"
   "F:/Clionprojectsnew/RPG_Game/Enemy.cpp" "F:/Clionprojectsnew/RPG_Game/cmake-build-debug/CMakeFiles/RPG_Game.dir/Enemy.cpp.obj"
-  "F:/Clionprojectsnew/RPG_Game/Fight.cpp" "F:/Clionprojectsnew/RPG_Game/cmake-build-debug/CMakeFiles/RPG_Game.dir/Fight.cpp.obj"
   "F:/Clionprojectsnew/RPG_Game/Game.cpp" "F:/Clionprojectsnew/RPG_Game/cmake-build-debug/CMakeFiles/RPG_Game.dir/Game.cpp.obj"
   "F:/Clionprojectsnew/RPG_Game/Item.cpp" "F:/Clionprojectsnew/RPG_Game/cmake-build-debug/CMakeFiles/RPG_Game.dir/Item.cpp.obj"
   "F:/Clionprojectsnew/RPG_Game/main.cpp" "F:/Clionprojectsnew/RPG_Game/cmake-build-debug/CMakeFiles/RPG_Game.dir/main.cpp.obj"

@@ -18,6 +18,10 @@ public:
 
 private:
     int HP;
+public:
+    void setHp(int hp);
+
+private:
     int maxHP;
     int atk;
     int level;

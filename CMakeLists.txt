@@ -10,4 +10,4 @@ add_executable(RPG_Game
         .idea/vcs.xml
         .idea/workspace.xml
         main.cpp
-        README.md Character.cpp Character.h Fight.cpp Fight.h Enemy.cpp Enemy.h Item.cpp Item.h Game.cpp Game.h)
+        README.md Character.cpp Character.h Enemy.cpp Enemy.h Item.cpp Item.h Game.cpp Game.h)

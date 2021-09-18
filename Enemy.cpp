@@ -26,3 +26,7 @@ int Enemy::getAtk() const {
 int Enemy::getLevel() const {
     return level;
 }
+
+void Enemy::setHp(int hp) {
+    HP = hp;
+}

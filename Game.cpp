@@ -3,74 +3,75 @@
 //
 
 #include "Game.h"
-//only cpp
 
-extern int countOption;
-
-Game::Game(){
-    option = 0;
+Game::Game() {
+    choice = 0;
     playing = true;
-};
+}
 
-void Game::mainMenu(){
+Game::~Game() {
 
-    cout<<"Main Menu"<<endl;
-    cout<<"1. Start game"<<endl;
-    cout<<"0. Exit game"<<endl<<endl;
+}
 
-    cout<<"Choose option: ";
-    cin>>option; ++countOption;
-    switch(option){
-        case 0: playing = false; break;
+void Game::mainMenu() {
+    cout<<"Main Menu"<<endl<<endl;
+    cout<<"1: Start"<<endl;
+    cout<<"0: Quit"<<endl;
+
+    cout<<endl<<"Choice: ";
+    cin>>choice;
+    switch (choice) {
+        case 0: playing = false;
+            break;
         case 1: {
-            string name;
-            cout<<"Enter your name: ";
-            cin>>name;
-            character.initialize(name);
-            startMenu();
-            break;}
-        default:   break;
+            createCharacter();
+            playMenu();
+            break;
+        }
+        default: break;
+
     }
 }
-void Game::startMenu(){
 
-    while (option !=0) {
-        cout << "Play Menu" << endl;
-        cout << "1. Explore" << endl;
-        cout << "2. Show statistics" << endl;
-        cout << "0. Go back" << endl << endl;
+void Game::playMenu() {
 
-        cout << "Choose option: ";
-        cin >> option;
-        switch (option) {
+    while (choice!=0) {
+        cout << "Play Menu" << endl << endl;
+        cout << "1: Explore" << endl;
+        cout << "2: Show stats" << endl;
+        cout << "0: Go back" << endl;
+
+        cout << endl << "Choice: ";
+        cin >> choice;
+        switch (choice) {
             case 0:
                 break;
             case 1: {
-                //trigger fight event
-                Fight fight;
-                fight.fightEventStart(character);
-
-                Item item("Skyward Blade", 1);
-                character.gainExp(15);
-                character.receiveItem(item);
+                cout<<character.getName() + " faced the enemy!\n";
+                character.fight();
                 break;
             }
-            case 2: {
-                cout<<character.toStringCharacter()<<endl;
+            case 2:
+                cout<<character.getInfo()<<endl;
                 break;
-            }
-            default: {
-                Item item("Freedom Sworn", 10);
-                character.gainExp(15);
-                character.receiveItem(item);
+            default:
                 break;
-            }
         }
     }
 }
 
-
+void Game::createCharacter(){
+    cout<<"Enter the name: ";
+    string name;
+    cin>> name;
+    character.setName(name);
+};
 
 bool Game::isPlaying() const{
     return playing;
+
+}
+
+void Game::setPlaying(bool playing) {
+    Game::playing = playing;
 }

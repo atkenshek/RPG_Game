@@ -21,9 +21,12 @@ public:
 
     void setAtk(int atk);
 
+    void getRandomItem();
+
 private:
     string name;
     int atk;
 
 };
+
 #endif //RPG_GAME_ITEM_H

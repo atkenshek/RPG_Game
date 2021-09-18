@@ -2,26 +2,29 @@
 // Created by Professional on 17.09.2021.
 //
 #include <iostream>
-using namespace std;
+#include <string>
 #include "Character.h"
-#include "Fight.h"
+using namespace std;
 #ifndef RPG_GAME_GAME_H
 #define RPG_GAME_GAME_H
 class Game {
 public:
-    //Constructor
     Game();
-    //Functions
+    virtual ~Game();
+
     void mainMenu();
     bool isPlaying() const;
+    void setPlaying(bool playing);
+    void createCharacter();
 
-    //Fields
 private:
-    int option; // to navigate in Menus
-    bool playing; // to check if player is playing the game?
+    int choice;
+    bool playing;
     Character character;
-    void startMenu();
 
+    void playMenu();
+    void showStats();
 };
+
 
 #endif //RPG_GAME_GAME_H
