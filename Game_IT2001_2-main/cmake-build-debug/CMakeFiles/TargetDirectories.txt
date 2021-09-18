@@ -1,0 +1,3 @@
+C:/Users/GooseMane/CLionProjects/Game_IT2001_2-main/Game_IT2001_2-main/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/GooseMane/CLionProjects/Game_IT2001_2-main/Game_IT2001_2-main/cmake-build-debug/CMakeFiles/IT2001_2002_L1.dir
+C:/Users/GooseMane/CLionProjects/Game_IT2001_2-main/Game_IT2001_2-main/cmake-build-debug/CMakeFiles/rebuild_cache.dir

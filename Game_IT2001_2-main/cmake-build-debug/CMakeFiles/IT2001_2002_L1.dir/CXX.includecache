@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/GooseMane/CLionProjects/Game_IT2001_2-main/Game_IT2001_2-main/Character.cpp
+Character.h
+C:/Users/GooseMane/CLionProjects/Game_IT2001_2-main/Game_IT2001_2-main/Character.h
+Item.h
+C:/Users/GooseMane/CLionProjects/Game_IT2001_2-main/Game_IT2001_2-main/Item.h
+
+C:/Users/GooseMane/CLionProjects/Game_IT2001_2-main/Game_IT2001_2-main/Character.h
+iostream
+C:/Users/GooseMane/CLionProjects/Game_IT2001_2-main/Game_IT2001_2-main/iostream
+string
+-
+Item.h
+C:/Users/GooseMane/CLionProjects/Game_IT2001_2-main/Game_IT2001_2-main/Item.h
+cstdlib
+-
+
+C:/Users/GooseMane/CLionProjects/Game_IT2001_2-main/Game_IT2001_2-main/Item.h
+string
+-
+
