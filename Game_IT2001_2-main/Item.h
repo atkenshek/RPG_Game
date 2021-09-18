@@ -21,6 +21,8 @@ public:
 
     void setAtk(int atk);
 
+    void getRandomItem();
+
 private:
     string name;
     int atk;
