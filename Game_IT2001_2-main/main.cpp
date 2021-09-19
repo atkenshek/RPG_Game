@@ -3,8 +3,8 @@
 int main() {
 
     Game game; //Game initialized
-    while (game.isPlaying()) {
-        game.mainMenu();
+    while (game.isPlaying()) {  //while the game is in action
+        game.mainMenu();        //displaying to console main menu buttons
     }
 
     return 0;

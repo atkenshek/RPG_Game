@@ -37,10 +37,9 @@ public:
 
     void setExp(int exp);
     string getInfo();
-    void gainExp(int exp);
-    void setItem(Item item);
-//    Item getRandomItem();
-    void fight();
+    void gainExp(int exp);      //defining the function to increase the hero`s experience and level
+    void setItem(Item item);    //defining the function to add item to inventory
+    void fight();               //defining the function that logs the process of fighting with enemy
 
 private:
     string name;
@@ -49,7 +48,7 @@ private:
     int atk;
     int level;
     int exp;
-    Item items[4];
+    Item items[3]; // array that stores 3 items of hero
 
 };
 

@@ -21,7 +21,7 @@ public:
 
     void setAtk(int atk);
 
-    void getRandomItem();
+    void getRandomItem(); //defining the function that gives to hero random item among 3 existing
 
 private:
     string name;
